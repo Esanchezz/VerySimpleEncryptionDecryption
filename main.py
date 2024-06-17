@@ -11,7 +11,7 @@ Newold = input("Are you generating a (N)ew key or reusing an (O)ld key ")
 if Newold.lower() == "n":
     key = f.Fernet.generate_key() #generates a new key
     print_key = key.decode("ASCII") #converts to bytes for fernet
-    print(print_key + " This is your KEY.") #shows user created key
+    print("This is your KEY:   " + print_key) #shows user created key
 elif Newold.lower() == "o":
     key = input("Paste KEY: \n") #user pastes old key
     key = key.encode("ASCII") #converts to bytes for fernet
