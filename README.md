@@ -9,3 +9,10 @@
 - Allows users to enter pre-existing keys created by the program.
 - Encrypt text inputted by the user.
 - Decrypt encrypted messages that was created for the specific key.
+
+## To run the program
+- First install the latest version of Python
+- Open your terminal
+- Change directories to where the main.py file is saved
+- Run the main.py file by typing "python main.py" in the command line
+- Follow the provided instructions in the program
